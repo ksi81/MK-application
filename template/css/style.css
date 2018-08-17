@@ -100,11 +100,15 @@ body {
     font-weight: bold;
 }
 
-.data-box,
+
 .bill-box,
 .sum-box {
     width: 239px;
     height: 45px;
+}
+
+.box-payment{
+    line-height: 35px;
 }
 
 .bbox-checkbox {
