@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1103 15 40 38">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_23" data-name="Group 23" class="cls-1" transform="translate(273 1)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-2" width="10" height="10" transform="translate(830 14)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-2" width="10" height="10" transform="translate(845 14)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-2" width="10" height="10" transform="translate(860 14)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-2" width="10" height="10" transform="translate(830 28)"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-2" width="10" height="10" transform="translate(845 28)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-2" width="10" height="10" transform="translate(860 28)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-2" width="10" height="10" transform="translate(830 42)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-2" width="10" height="10" transform="translate(845 42)"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-2" width="10" height="10" transform="translate(860 42)"/>
+  </g>
+</svg>

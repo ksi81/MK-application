@@ -1,0 +1,88 @@
+body {
+    color: #654A7A;
+}
+
+
+.applications-footer {
+    background-color: #7E6990;
+    min-height: 55px;
+}
+
+.applications-footer-menu img {
+    margin-top: 15px;
+}
+.img-menu img{
+    text-align: right;
+    text-align: -webkit-right;
+    margin-top: 8px;
+}
+
+.user-photo img {
+    border: 7px solid #FFFFFF;
+    position: relative;
+    top: -40px;
+}
+
+.user-name {
+    position: relative;
+    top: -35px;
+    color: #A391B2;
+    font-weight: 700;
+}
+
+.applications-h1 {
+   
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.red-line {
+    height: 5px;
+    background-color: #D7006D;
+}
+.box-sizes{
+    min-width: 239px;
+    min-height: 45px;
+}
+
+.box {
+    border: none;
+    border-radius: none;
+    color: white;
+    /* Цвет текста */
+    border-bottom-width: 2px;
+    /* Толщина линии внизу */
+    border-bottom-style: solid;
+    /* Стиль линии внизу */
+    border-bottom-color: red;
+    /* Цвет линии внизу */
+}
+
+.box2 {
+    border: none;
+    border: 2px solid #7E6990;
+    border-radius: 10px 10px;
+    color: #654A7A;
+}
+
+.dropdown-toggle-split {
+    color: #E64584;
+}
+
+.div-meta p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.data-bill-sum p {
+    font-size: 20px;
+    color: #644B78;
+    font-weight: bold;
+}
+
+.data-box,
+.bill-box,
+.sum-box {
+    width: 239px;
+    height: 45px;
+}

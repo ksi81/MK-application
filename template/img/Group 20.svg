@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="138 1284 28.6 33.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #402b56;
+      }
+
+      .cls-2 {
+        fill: #e74683;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_20" data-name="Group 20" transform="translate(138 1284)">
+    <path id="Path_35" data-name="Path 35" class="cls-1" d="M11.9,12.1h8.7a1.694,1.694,0,0,0,1.8-1.6V1.6A1.694,1.694,0,0,0,20.6,0H1.8A1.694,1.694,0,0,0,0,1.6v8.8A1.694,1.694,0,0,0,1.8,12H9.3l-.2,2.8Zm-8.6-9H19V4H3.3Zm0,2.4H19v.9H3.3Zm0,3.2V7.8h8v.9Z"/>
+    <path id="Path_36" data-name="Path 36" class="cls-2" d="M28.6,14.9v-6c0-.6-.5-1-1.2-1H23.2V11a1.831,1.831,0,0,1-2,1.7H15.6v2.1c0,.6.5,1,1.2,1h5.7l1.7,1.7L24,15.9h3.4A1.126,1.126,0,0,0,28.6,14.9Z"/>
+    <path id="Path_37" data-name="Path 37" class="cls-1" d="M2.6,20.5a5,5,0,1,0,5-5A5.081,5.081,0,0,0,2.6,20.5Z"/>
+    <path id="Path_38" data-name="Path 38" class="cls-1" d="M4.7,26.1A4.7,4.7,0,0,0,0,30.8v2.3H15.3V30.8a4.7,4.7,0,0,0-4.7-4.7H4.7Zm4.8,6.2h-3l.6-3.8-.6,3.8H5.8L4.7,26.6h5.9Z"/>
+    <path id="Path_39" data-name="Path 39" class="cls-3" d="M8.2,28.4h0l.6,3.8h.7l1.1-5.7H4.7l1.1,5.7h.7l.6-3.8h0l-.6-1.1H8.8l-.6,1.1Z"/>
+    <path id="Path_40" data-name="Path 40" class="cls-2" d="M6.5,32.3H8.8l-.6-3.9h0l.6-1H6.5l.6,1h0Z"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-2" width="15.7" height="0.9" transform="translate(3.3 3.1)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-2" width="15.7" height="0.9" transform="translate(3.3 5.5)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-2" width="8" height="0.9" transform="translate(3.3 7.8)"/>
+    <path id="Path_41" data-name="Path 41" class="cls-1" d="M22.1,19a4.054,4.054,0,0,0,.2,8.1h5c.1,0,.1-.1,0-.1a1.724,1.724,0,0,1-1-1.7V23.1h0V23A3.835,3.835,0,0,0,22.1,19Z"/>
+    <path id="Path_42" data-name="Path 42" class="cls-1" d="M20,27.4a3.8,3.8,0,0,0-3.8,3.8V33H28.5V31.2a3.8,3.8,0,0,0-3.8-3.8H20Zm3.4,2.4.8.7-1.8,1.9-1.8-1.9.8-.7a11.985,11.985,0,0,1-1.2-1.1c-.1-.2.7-.7.7-.7l1.5,4.5L23.9,28s.8.5.7.7C24.5,28.8,23.4,29.8,23.4,29.8Z"/>
+    <path id="Path_43" data-name="Path 43" class="cls-2" d="M22.4,32.5,20.9,28s-.8.5-.7.7c.1.1,1.2,1.1,1.2,1.1l-.8.7Z"/>
+    <path id="Path_44" data-name="Path 44" class="cls-2" d="M24.6,28.7c.1-.2-.7-.7-.7-.7l-1.5,4.5,1.8-1.9-.8-.7A13.576,13.576,0,0,1,24.6,28.7Z"/>
+  </g>
+</svg>
