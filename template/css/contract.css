@@ -1,0 +1,24 @@
+.contract-box{
+font-size: 2.5em;
+font-weight: 700;
+border: none;
+}
+.contract-txt{
+border: none;
+    font-weight: 500;
+}
+
+.buttom-new {
+    font-size: 20px;
+    
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #7E6990;
+    border: 2px solid #7E6990;
+    border-radius: 10px 10px;
+    background: #cfe7fa;
+    background: -moz-linear-gradient(top, #7E6990 0%, #A391B2 100%);
+    background: -webkit-linear-gradient(top,#7E6990 0%, #A391B2 100%);
+    background: linear-gradient(to bottom, #7E6990 0%, #A391B2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7E6990', endColorstr='#7E6990', GradientType=0);
+}
