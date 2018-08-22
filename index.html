@@ -12,6 +12,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous"> -->
     <link rel="stylesheet" href="template/css/style.css">
+    <link rel="stylesheet" href="template/css/table.css">
     <title>MK applications</title>
 </head>
 
@@ -27,8 +28,9 @@
                         <img class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="template/img/group23.png"
                             alt="Меню">
                         <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="index.html">HOME</a>
                             <a class="dropdown-item" href="index2.html">New contract</a>
-                            <a class="dropdown-item" href="index.html">Application for purchase</a>
+                            <a class="dropdown-item" href="index1.html">Application for purchase</a>
 
 
                         </div>
@@ -57,235 +59,186 @@
 
     </div>
     <div class="container">
-        <h1 class="applications-h1">Заява на придбання</h1>
+        <h1 class="applications-h1">Активні заявки</h1>
         <hr class="red-line">
-        <br>
+
+
+
+
         <div class="row">
-            <div class="col-sm">
-                <div class="input-group mb-3">
-                    <div class="">
-                        <span class="" id="inputGroup-sizing-default">
-                            <img src="template/img/group2.png" alt="">
+            <div class="row">
+                <div class="col ">
+                    <div class=''>
+                        <!-- <div class='toltip'> -->
+                        <div class="table-toltip-box">
+                            <h4 class="my-title">Таблиця ваших останніх заявок зі статусами</h4>
+                            <hr class="table-pink-line">
 
-                        </span>
+
+                            <div id="list_wrapper" class="dataTables_wrapper" role="grid">
+                                <div class="col-md-6 offset-md-6 checkbox">
+
+                                    <!-- <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">всі Консультнати</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">тільки Лідери</label>
+                                    </div> -->
+                                    <div class="form-check form-check-inline">
+
+                                        <input type="text" class="form-control" placeholder="пошук по списку" aria-label="" aria-describedby="basic-addon1">
+
+                                    </div>
+                                    <!-- <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                                <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                              </div> -->
+                                    <!-- <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-secondary" type="button">всі Консультнати</button>
+                                            <button class="btn btn-outline-secondary" type="button">тільки Лідери</button>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="пошук по списку" aria-label="" aria-describedby="basic-addon1">
+                                    </div> -->
+
+                                    <div class="dataTables_filter" id="list_filter">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <table id="list" class="resultsTable dataTable">
+                                <thead>
+                                    <tr align="center" role="row">
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="ПІ: activate to sort column ascending">Дата створення</th>
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="Конс. №: activate to sort column ascending">Мета</th>
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="ПІ ГО: activate to sort column ascending">Підрядник</th>
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="Конс. № ГО: activate to sort column ascending">Сума</th>
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="Конс. № ГО: activate to sort column ascending">Дата завершення</th>
+                                        <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="Конс. № ГО: activate to sort column ascending">Статус заявки</th>
+
+
+                                    </tr>
+
+                                </thead>
+                                <tfoot>
+                                    <!-- <tr>
+                                        <th rowspan="1" colspan="1">Всього</th>
+                                        <th rowspan="1" colspan="1"></th>
+                                        <th rowspan="1" colspan="1"></th>
+                                        <th rowspan="1" colspan="1"></th>
+                                        <th rowspan="1" colspan="1">109</th>
+                                      
+                                    </tr> -->
+                                </tfoot>
+                                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+
+                                    </tr>
+                                    <tr class="even">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли та додаткогово івфіффафа </td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class="approved">затверджено</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля турана і прицепа
+
+                                        </td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td class="">28.02.2018</td>
+                                        <td class=" ">Купівля тесли</td>
+                                        <td class=" ">ТОВ пупкин</td>
+                                        <td class=" ">312442</td>
+                                        <td class=" ">29.03.2018</td>
+                                        <td class=" ">затверджено</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        </table>
                     </div>
-                    <input type="text" placeholder="П.І.П. працівника" class="form-control box" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="" id="inputGroup-sizing-default">
-                            <img src="template/img/group3.png" alt="">
-                        </span>
-                    </div>
-                    <input type="text" placeholder="Підрозділ" class="form-control box" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-            <div class="col-sm">
-                <!-- ////     -->
-            </div>
-        </div>
-    </div>
-    <br>
-    <!-- //бюджетные статьи   -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-
-                <div>
-                    <input list="budgets" name="budgets" placeholder=" стаття бюджету" class="box2 box-sizes">
-                    <datalist id="budgets">
-                        <option value="Internet Explorer">
-                            <option value="Firefox">
-                                <option value="Chrome">
-                                    <option value="Opera">
-                                        <option value="Safari">
-                    </datalist>
-
-
-
-                </div>
-            </div>
-            <div class="col-sm">
-                <div>
-                    <input list="manufacturers" name="manufacturers" placeholder=" контрагент/постачальник" class="box2 box-sizes">
-                    <datalist id="manufacturers">
-                        <option value="Internet Explorer">
-                            <option value="Firefox">
-                                <option value="Chrome">
-                                    <option value="Opera">
-                                        <option value="Safari">
-                    </datalist>
-
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="input-group-prepend">
-                    <button class="btn btn-outline-secondary dropdown-toggle box2 box-sizes" type="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">договір/додаток</button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div role="separator" class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row ">
-            <div class="col-sm-6 "></div>
-            <div class="col-sm-3 ">
-                <div class="custom-control custom-checkbox ">
-                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                    <label class="custom-control-label" for="customCheck1">Наявність договору</label>
-                </div>
-            </div>
-            <div class="col-sm-3 ">
-                <div class="custom-control custom-checkbox box-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="customCheck2">
-                    <label class="custom-control-label" for="customCheck2">Наявність додатку</label>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h2>Мета</h2>
-                <div class="input-group input-group-lg">
-
-                    <div class="input-group-prepend">
-
-                    </div>
-                    <div class="div-meta box2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                    <!-- <input type="text"  class="form-control box2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"> -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row data-bill-sum">
-            <div class="col-sm">
-                <p>№ рахунку</p>
-                <div class="">
-                    <input class="box2 bill-box" type="text">
-                </div>
-            </div>
-            <div class="col-sm">
-                <p>Сума</p>
-                <div class="">
-                    <input class="box2 bill-box" type="number">
-                </div>
-            </div>
-            <div class="col-sm box-payment">
-                <p>% передплати</p>
-                <p style="font-size: 50px; color: #644B78; font-weight: 800">25%</p>
-                <div class="form-check form-check-inline">
-                    <div>
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Предоплата
-                        </label>
-                    </div>
-                    <div>
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            Постоплата
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row ">
-            <div class="col-sm">
-
-                <form>
-                    <div class="form-group ">
-                        <p>Додаткові документи</p>
-                        <!-- <label for="exampleFormControlFile1">Example file input</label> -->
-                        <input type="file" class="form-control-file " id="exampleFormControlFile1">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <h2>Номер №CЕА</h2>
-                <div class="input-group input-group-lg">
-
-                    <div class="input-group-prepend">
-
-                    </div>
-                    <div class="  box-sizes box2">
-                        <p></p>
-                    </div>
-                    <!-- <input type="text"  class="form-control box2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"> -->
+                    <!-- //// -->
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <div class="input-group mb-3">
-                    <div class="">
-                        <span class="" id="inputGroup-sizing-default">
-                            <img src="template/img/group20.png" alt="">
-
-                        </span>
-                    </div>
-                    <input type="text" placeholder="Менеджер" class="form-control box" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="" id="inputGroup-sizing-default">
-                            <img src="template/img/group19.png" alt="">
-                        </span>
-                    </div>
-                    <input type="text" placeholder="Директор" class="form-control box" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="" id="inputGroup-sizing-default">
-                            <img src="template/img/group19.png" alt="">
-                        </span>
-                    </div>
-                    <input type="text" placeholder="Хтось ще" class="form-control box" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-        </div>
-        <hr>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <button class="buttom-last">ЗБЕРЕГТИ ТА ПОДАТИ НА ОПРАЦЮВАННЯ</button>
-            </div>
-        </div>
 
     </div>
     <br>
