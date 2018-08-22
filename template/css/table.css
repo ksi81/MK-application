@@ -9,12 +9,15 @@
 }
 
 .odd td{
-	background: #f1bfef;
+	background: #FFF5F7;
+
 }
 
 .approved{
-	background: rgb(139, 247, 139);
-	border-radius: 24px;
+	background: #83E5C7;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
 }
 
 rejected
@@ -28,14 +31,14 @@ rejected
 }
 
 .resultsTable th {
-	border: 1px solid #624b77;
+	border-bottom-style: 2px solid #E74683;
 }
 
 .my-title {
 	font-size: 1.5em;
-	color: #624B77;
+	color: #644B78;
 	padding-top: 2%;
-	color: #624b77;
+	color: #644B78;
 	font-weight: 700;
 	padding-bottom: 1%;
 	/* margin-top: -3%; */
