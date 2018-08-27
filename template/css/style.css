@@ -124,6 +124,15 @@ body {
     outline: none;
 }
 
+.form-control-file:focus {
+    color: #644B78;
+    background-color: #fff;
+    border-color: #644B78;
+    outline: 0;
+    box-shadow: none;
+    outline: none;
+}
+
 .box-payment {
     line-height: 35px;
 }
@@ -133,7 +142,7 @@ body {
     display: flex;
 }
 
-a {
+.btn-save {
     width: 556px;
     height: 60px;
     text-decoration: none;
@@ -165,7 +174,7 @@ a {
     font-size: 20px;
 }
 
-a:before {
+.btn-save:before {
     content: "";
     background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
     height: 60px;
@@ -176,13 +185,13 @@ a:before {
     transform: skewX(-45deg);
 }
 
-a:hover {
+.btn-save:hover {
     background: #7E6990;
     color: #fff;
     text-decoration: none;
 }
 
-a:hover:before {
-    left: 150px;
-    transition: .5s ease-in-out;
+.btn-save:hover:before {
+    left: 500px;
+    transition: .8s ease-in-out;
 }
