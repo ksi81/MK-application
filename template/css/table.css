@@ -13,14 +13,32 @@
 
 }
 
-.approved{
+.approved p{
+	padding-top: 4px;
+	min-width: 146px;
+    min-height: 27.6px;
+	margin: auto;
 	background: #83E5C7;
 	border-radius: 20px;
 	color: white;
 	font-weight: bold;
 }
+.inprocess p{
+	padding-top: 4px;
+	min-width: 146px;
+    min-height: 27.6px;
+	margin: auto;
+	background: #FFF5F7;
+	border-radius: 20px;
+	color: #644B78;
 
-.rejected {
+}
+
+.rejected p {
+	padding-top: 4px;
+	min-width: 146px;
+    min-height: 27.6px;
+	margin: auto;
 	background: #FF297A;
 	border-radius: 20px;
 	color: white;
